@@ -8,6 +8,32 @@
   <version>1.0-SNAPSHOT</version>
   <name>my_prose</name>
   <url>http://maven.apache.org</url>
+
+ <licenses>
+    <license>
+        <name>Open Software License 3.0 (OSL-3.0)</name>
+        <url>https://opensource.org/license/osl-3-0-php</url>
+        <distribution>repo</distribution>
+    </license>
+ </licenses>
+
+ <repositories>
+    <repository>
+      <id>github</id>
+      <url>https://maven.pkg.github.com/bs-jokri/prose-builder</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+     <id>my_github</id>
+     <url>https://maven.pkg.github.com/mileyCg/my-prose</url>
+     <snapshots>
+       <enabled>true</enabled>
+     </snapshots>
+    </repository>
+ </repositories>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -15,5 +41,15 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-  </dependencies>
+    <dependency>
+      <groupId>de.htw_berlin.fb4.ossd</groupId>
+      <artifactId>prose_builder</artifactId>
+     <version>1.1-SNAPSHOT</version>
+    </dependency>
+   <dependency>
+      <groupId>com.exemple</groupId>
+      <artifactId>my_prose</artifactId>
+      <version>1.0-SNAPSHOT</version>
+   </dependency> 
+ </dependencies>
 </project>
