@@ -18,17 +18,28 @@ Einschränkungen.
  * SPDX-License-Identifier: OSL-3.0
  */
 
-
 package de.htw_berlin.fb4.my_prose;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+
+import de.htw_berlin.fb4.ossd.prose.Sentence;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class SimpleSentence implements Sentence {
+    @Override
+    public String get() {
+        return null;
+    }
+
+    public List<String> getWords(String sentence) {
+        List<String> list = new ArrayList<>();
+        String[] array = sentence.split(" ");
+
+        for (String word : array) {
+            list.add(word);
+        }
+
+        return list;
     }
 }
