@@ -25,6 +25,13 @@
         <enabled>true</enabled>
       </snapshots>
     </repository>
+    <repository>
+     <id>my_github</id>
+     <url>https://maven.pkg.github.com/mileyCg/my-prose</url>
+     <snapshots>
+       <enabled>true</enabled>
+     </snapshots>
+    </repository>
  </repositories>
 
   <dependencies>
@@ -39,5 +46,10 @@
       <artifactId>prose_builder</artifactId>
      <version>1.1-SNAPSHOT</version>
     </dependency>
-  </dependencies>
+   <dependency>
+      <groupId>com.exemple</groupId>
+      <artifactId>my_prose</artifactId>
+      <version>1.0-SNAPSHOT</version>
+   </dependency> 
+ </dependencies>
 </project>
