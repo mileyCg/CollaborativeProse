@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="DE"/>
     <property name="sun.boot.library.path" value="/Users/apple/Library/Java/JavaVirtualMachines/openjdk-23.0.1/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/apple/Desktop/Uni/ikt/aufgabe7/CollaborativeProse/my_prose/target/surefire/surefirebooter-20250808141357902_3.jar /Users/apple/Desktop/Uni/ikt/aufgabe7/CollaborativeProse/my_prose/target/surefire 2025-08-08T14-13-54_611-jvmRun1 surefire-20250808141357902_1tmp surefire_0-20250808141357902_2tmp"/>
+    <property name="sun.java.command" value="/Users/apple/Desktop/Uni/ikt/aufgabe7/CollaborativeProse/my_prose/target/surefire/surefirebooter-20250808143503584_3.jar /Users/apple/Desktop/Uni/ikt/aufgabe7/CollaborativeProse/my_prose/target/surefire 2025-08-08T14-35-03_293-jvmRun1 surefire-20250808143503584_1tmp surefire_0-20250808143503584_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/apple/Desktop/Uni/ikt/aufgabe7/CollaborativeProse/my_prose/target/test-classes:/Users/apple/Desktop/Uni/ikt/aufgabe7/CollaborativeProse/my_prose/target/classes:/Users/apple/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -28,7 +28,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/apple/Desktop/Uni/ikt/aufgabe7/CollaborativeProse/my_prose/target/surefire/surefirebooter-20250808141357902_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/apple/Desktop/Uni/ikt/aufgabe7/CollaborativeProse/my_prose/target/surefire/surefirebooter-20250808143503584_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.1+11-39"/>
     <property name="user.name" value="apple"/>
@@ -54,5 +54,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="testApp" classname="de.htw_berlin.fb4.my_prose.AppTest" time="0.001"/>
+  <testcase name="testApp" classname="de.htw_berlin.fb4.my_prose.AppTest" time="0.016"/>
 </testsuite>
