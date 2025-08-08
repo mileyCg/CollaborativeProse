@@ -29,6 +29,22 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        //class from my repo
+	com.example.SimpleSentence simpleSentence = new SimpleSentence();
+	
+	com.example.SimpleProse simpleProse = new 
+SimpleProse(List.of(simpleSentence,simpleSentence));
+	System.out.println(simpleProse.getText());
+
+	ProseBuilder proseBuilder = new ProseBuilder();
+	proseBuilder.register(simpleSentence);
+	proseBuilder.register(simpleSentence);
+	System.out.println(proseBuilder.get());
+	
+	CollaborativeProse collaborativeProse = new CollaborativeProse();
+	collaborativeProse.print();
+
+	
+
     }
 }
