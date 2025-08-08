@@ -13,6 +13,10 @@ public class CollaborativeProse {
 	
 	proseBuilder.register(simpleSentence);
 	proseBuilder.register(simpleProse);
+
+	public void print(){
+	System.out.println(proseBuilder.get());
+}
 	}
 
 	
